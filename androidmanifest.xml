@@ -1,0 +1,34 @@
+<service
+    android:name=".GlyphKeyboardService"
+    android:permission="android.permission.BIND_INPUT_METHOD">
+    <intent-filter>
+        <action android:name="android.view.InputMethod" />
+    </intent-filter>
+    <meta-data
+        android:name="android.view.im"
+        android:resource="@xml/method" />
+</service>
+2. Glyph Data Map
+object GlyphData {
+    val glyphs: Map<Char, List<String>> = mapOf(
+        'a' to listOf("α", "å", "ä", "à", "ā", "ą"),
+        'b' to listOf("β", "ƀ", "ɓ"),
+        'c' to listOf("ç", "ć", "č", "ĉ"),
+        // ... all 26 letters
+    )
+}
+3. Long-Press Detection on Each Key
+key.setOnTouchListener { view, event ->
+    when (event.action) {
+        MotionEvent.ACTION_DOWN -> {
+            longPressHandler.postDelayed({
+                showGlyphPicker(keyChar)  // triggers at 300ms
+            }, 300)
+        }
+        MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+            longPressHandler.removeCallbacksAndMessages(null)
+            if (!longPressTriggered) commitChar(keyChar) // normal tap
+        }
+    }
+    true
+}

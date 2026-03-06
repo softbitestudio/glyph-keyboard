@@ -17,18 +17,20 @@ JSON/map storing your symbols per letter
 Project Structure
 
 
-app/                                                            
+app/                                                                                                         
 ├── src/main/                                             
 │   ├── java/com/yourapp/keyboard/
-│   │   ├── GlyphKeyboardService.kt       ← IME entry point
-│   │   ├── KeyboardView.kt               ← Custom key rendering
+│   │   ├── GlyphKeyboardService.kt       ← IME entry point                                                            
+│   │   ├── KeyboardView.kt               ← Custom key rendering                                                            
 │   │   ├── GlyphPickerPopup.kt           ← Long-press popup
 │   │   └── GlyphData.kt                  ← Your symbol mappings                                             
 │   ├── res/                                             
 │   │   ├── xml/                                             
-│   │   │   ├── method.xml                ← IME                declaration
-│   │   │   └── keyboard.xml              ← Key layout (optional)                                             
+│   │   │   ├── method.xml                ← IME                declaration                                             
+│   │   │   └── keyboard.xml              ← Key layout (optional)                                                                                          
 │   │   └── layout/                                                            
 │   │       ├── keyboard_view.xml                              
 │   │       └── glyph_picker.xml                                             
-│   └── AndroidManifest.xml                                             
+│   └── AndroidManifest.xml                            
+
+                 

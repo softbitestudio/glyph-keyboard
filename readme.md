@@ -2,7 +2,7 @@
 
 The keyboard with a thousand tongues.
 
-An Android custom keyboard (IME) with a QWERTY layout that lets users long-press any letter to pick from a curated collection of symbols and glyphs from languages around the world.
+An Android custom keyboard (IME) with a QWERTY layout that lets users long-press any letter to pick from a curated collection of homoglyphs from languages around the world.
 
 ---
 

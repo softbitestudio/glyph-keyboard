@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyboard_bg">#1A1A2E</color>
+    <color name="key_bg">#16213E</color>
+    <color name="key_bg_pressed">#0F3460</color>
+    <color name="key_text">#FFFFFF</color>
+    <color name="glyph_indicator">#E94560</color>
+    <color name="radial_bg">#CC1A1A2E</color>
+    <color name="radial_highlight">#5C6BC0</color>
+    <color name="radial_stroke">#3949AB</color>
+</resources>

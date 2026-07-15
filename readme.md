@@ -1,10 +1,20 @@
-#ʘʀɪsʏɴ ‖ Glyph Keyboard 🔤
+🔤 ⌨ Glyph Keyboard ᥱᥒ #Homoglyph
+
+ˈˈˈ
+꩙ ⸨ ߥ ⴂ ᥫ ⸩
+ꕥ ⸨ ꪎ ꨋ ᤃ ⸩
+ꕦ ⸨ ፬ꛨಖⲝથཧნꚨზꛝ ⸩
+ᜰ ⸨ ᗩ ₿ ꛕ ⸩
+꩜ ⸨ ✗ ყ ᤁ ⸩
+ꇻ ⸨ øꛬಖპથ᱆ճꛙზꛀ ⸩ˈ
+           
+
 
 The keyboard with a thousand tongues.
 
 An Android custom keyboard (IME) with a QWERTY layout that lets users long-press any letter to pick from a curated collection of homoglyphs from languages around the world.
 
----
+--- ᥩ •ᥕ• ᥩ  ᥥ ᥕ ᥥ  ᥤᥨ ᥤ  ಡᥧ ಢ
 
 ## Features
 
